@@ -18,6 +18,8 @@ body{
     background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );
 }
 
+
+
 header{
     width: 100%;
     height: 20%;   
@@ -93,6 +95,38 @@ header{
     border-radius: 4px;
 }
     
+.container-answers{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 2%;
+    justify-content: center;
+    height: 20%;
+}
 
+.text-container-answers{
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    height: 20%;
+}
 
+.container-traduction{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
 
+.text-random-result{
+    font-size: 2.5rem;
+}
+
+.text-answer label{
+    font-size: 2.0rem;
+}
+
+#verifyVerb{
+    margin-top: 50px;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #21bd62 !important; 
+}
