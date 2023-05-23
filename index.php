@@ -13,7 +13,16 @@
     <header>
         <div class="header-container">
             <div class="text-container">
-                <p>Irregular Verbs List!</p>
+                <p>Irregular Verbs  -
+                </p>&nbsp&nbsp
+                <select class="select-style"id="listValue">
+                    <option value="">Select a List!</option>
+                    <option value="list_1">List 1</option>
+                    <option value="list_2">List 2</option>
+                    <option value="list_3">List 3</option>
+                    <option value="list_4">List 4</option>
+                </select>
+               
             </div>
         </div>
     </header>
@@ -52,7 +61,10 @@
     </footer>
 </body>
 <?php include 'config/js_config.php' ?>
-<script src="js/verbs.js"></script>
+<script src="js/data/verbs_list1.js"></script>
+<script src="js/data/verbs_list2.js"></script>
+<script src="js/data/verbs_list3.js"></script>
+<script src="js/data/verbs_list4.js"></script>
 <script src="js/main.js"></script>
 
 </html>

@@ -29,7 +29,7 @@ header{
 }
 
 .header-container{
-    width: 35%;
+    width: 45%;
     height: 55%;
     border: 1px solid red;
     border-radius: 30px;
@@ -39,15 +39,15 @@ header{
     align-items: center;
 }
 
-.text-container{
-    width: 70%;
+.text-container{   
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .text-container p{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .button-random-container{
@@ -130,3 +130,16 @@ header{
     background-color: #2ECC71;
     border-bottom: 4px solid #21bd62 !important; 
 }
+
+.select-style {    
+    appearance: none;   
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+   
+    font-family: inherit;
+    font-size: 2.5rem;
+    cursor: inherit;
+    line-height: inherit;
+  }
