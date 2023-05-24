@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/icon.png"/>
     <title>List of Irregular Verbs</title>
 </head>
 
@@ -37,17 +39,17 @@
             <div class="text-container-answers">
                 <div class="text-answer">
                     <label for="txtInfinitive">Infinitive: </label><br>
-                    <input type="text" class="input-answer" id="txtInfinitive">
+                    <input type="text" class="input-answer" id="txtInfinitive"><br>
                     <p class="legend" id="infLegend"></p>
                 </div>
                 <div class="text-answer">
                     <label for="txtPastTense">Past Tense: </label><br>
-                    <input type="text" class="input-answer" id="txtPastTense">
+                    <input type="text" class="input-answer" id="txtPastTense"><br>
                     <p class="legend" id="tenseLegend"></p>
                 </div>
                 <div class="text-answer">
                     <label for="txtPastParticiple">Past Participle: </label><br>
-                    <input type="text" class="input-answer" id="txtPastParticiple">
+                    <input type="text" class="input-answer" id="txtPastParticiple"><br>
                     <p class="legend" id="participleLegend"></p>
                 </div>
             </div>
@@ -60,7 +62,7 @@
         </div>
     </main>
     <footer>
-
+        Developed with ❤ by @edu.frasson 
     </footer>
 </body>
 <?php include 'config/js_config.php' ?>

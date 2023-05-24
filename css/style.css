@@ -18,8 +18,6 @@ body{
     background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );
 }
 
-
-
 header{
     width: 100%;
     height: 20%;   
@@ -31,7 +29,7 @@ header{
 .header-container{
     width: 45%;
     height: 55%;
-    border: 1px solid red;
+   
     border-radius: 30px;
     background-color: #F4D03F;
     display: flex;
@@ -66,7 +64,7 @@ header{
     background-color: #F4D03F;
     border-radius: 4px;
     padding: 8px 18px;
-    font-size: 16px;
+    font-size: 2rem;
     border-bottom: 4px solid #dbb107;
     font-weight: 700;
     color: black;
@@ -105,7 +103,10 @@ header{
 }
 
 .text-container-answers{
+  
+    width: 100%;
     display: flex;
+    align-items: center;
     column-gap: 2%;
     justify-content: center;
     height: 20%;
@@ -146,13 +147,22 @@ header{
 
 .error{
     margin: 0;
-    border: 4px solid red;
+    border: 3px solid red;
 }
 
 .success{
-    border: 4px solid #21bd62;
+    border: 3px solid #21bd62;
 }
 
 .legend{
     font-size: 1.7rem;
+}
+
+footer{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }

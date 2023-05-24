@@ -19,8 +19,17 @@ function randomVerb() {
         case 'list_4':
             addVerbOnResult(verbs_4);
             break
+        case '':
+            swal({
+                title: "Erro!",
+                text: "Selecione uma lista!",
+                icon: "error"
+            })
+            break
     }
 }
+
+
 
 /* 
     Função que limpa os inputs
@@ -54,8 +63,9 @@ async function addVerbOnResult(var_name) {
     Função que verifica se os resultados correspondem com a lista.
 */
 function verifyVerb() {
+    $('.legend').text("")
     // Verifica se todos os inputs estão preenchidos 
-    if ($('#txtInfinitive').val() != null && $('#txtPastTense').val() != null && $('#txtPastParticiple').val() != null) {
+    if ($('#txtInfinitive').val() != '' && $('#txtPastTense').val() != '' && $('#txtPastParticiple').val() != '') {
 
         // Verifica input por input os valores.        
         if ($('#txtInfinitive').val() != current_verb.infinitive) {
@@ -79,7 +89,11 @@ function verifyVerb() {
             $('#txtPastParticiple').addClass("success")
         }
     }else{
-        alert('Preencha todos os campos!')
+        swal({
+            title: "Erro!",
+            text: "Preencha todos os campos!",
+            icon: "error"
+        })
     }
 
 }
