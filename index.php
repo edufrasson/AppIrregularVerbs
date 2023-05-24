@@ -28,7 +28,7 @@
     </header>
     <main>
         <div class="button-random-container">
-            <button class="button-random" id="randomVerb" ><box-icon name='dice-5'></box-icon>Random verb</button>
+            <button class="button-random" id="randomVerb" onclick="randomVerb()"><box-icon name='dice-5'></box-icon>Random verb</button>
         </div>
         <div class="container-traduction">            
             <p class="text-random-result" id="randomResult">Randomize a verb by clicking the button!</p>
@@ -38,20 +38,23 @@
                 <div class="text-answer">
                     <label for="txtInfinitive">Infinitive: </label><br>
                     <input type="text" class="input-answer" id="txtInfinitive">
+                    <p class="legend" id="infLegend"></p>
                 </div>
                 <div class="text-answer">
                     <label for="txtPastTense">Past Tense: </label><br>
                     <input type="text" class="input-answer" id="txtPastTense">
+                    <p class="legend" id="tenseLegend"></p>
                 </div>
                 <div class="text-answer">
                     <label for="txtPastParticiple">Past Participle: </label><br>
                     <input type="text" class="input-answer" id="txtPastParticiple">
+                    <p class="legend" id="participleLegend"></p>
                 </div>
             </div>
 
 
             <div class="button-random-container">
-                <button class="button-random" id="verifyVerb" onclick="randomVerb()"><box-icon name='check'></box-icon>Verify verb</button>
+                <button class="button-random" id="verifyVerb" onclick="verifyVerb()"><box-icon name='check'></box-icon>Verify verb</button>
             </div>
 
         </div>
